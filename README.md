@@ -2,5 +2,5 @@
 
 ## kauany: Crud do estudante
 ## sheldon: Crud do livro 
-## shuhaila: Crud do alguel 
+## suhaila: Crud do alguel 
 ## sandro: README E AJUDOU OS COLEGAS A FAZER 
