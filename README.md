@@ -1,4 +1,4 @@
-                           # trabalho
+  # trabalho
 ## kauany: Crud do estudante:
 nome;
 matricula;
