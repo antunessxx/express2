@@ -12,7 +12,6 @@ mongoose
   .catch((erro) => console.error("Erro ao conectar ao MongoDB:", erro));
 
 const esquemaAluguel = new mongoose.Schema({
-    id: { type: String, required: true },
     idLivro: { type: String, required: true },
     idEstudante: { type: String, required: true},
     dataAluguel: { type: String, required: true},
