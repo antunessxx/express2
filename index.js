@@ -2,11 +2,10 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const app = express();
-app.use (express.json());
+app.use(express.json());
 
 mongoose
-
-.connect("mongobd://localhost:27017/")
+.connect("mongodb://localhost:27017/livraria")
 .then(() => console.log("Conectado ao MongoDB"))
 .catch((erro) => console.error("Erro ao conectar ao MongoDB:", erro));
 const esquemaAluguel = new mongoose.Schema({
